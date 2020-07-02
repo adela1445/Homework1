@@ -25,7 +25,7 @@ h1 {
   color: #d9dcd6;
 }
 
-.toplinks {
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -35,14 +35,11 @@ h1 {
 li {
   display: inline-block;
   margin-left: 25px;
+  list-style-type: none;
 }
 a {
   color: #ffffff;
   text-decoration: none;
-}
-
-p {
-  font-size: 16px;
 }
 
 .hero {
@@ -54,12 +51,12 @@ p {
   background-position: center;
 }
 
-.content {
+section {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-.content div {
+section div {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -67,16 +64,16 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
+.Topic-left {
+  float: left;
+  max-height: 200px;
+  margin-right: 25px;
+}
 
 .Topic-right {
   float: right;
   max-height: 200px;
   margin-left: 25px;
-}
-.Topic-left {
-  float: left;
-  max-height: 200px;
-  margin-right: 25px;
 }
 
 h2 {
@@ -84,7 +81,11 @@ h2 {
   font-size: 36px;
 }
 
-.allbenefits {
+p {
+  font-size: 16px;
+}
+
+aside {
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -115,4 +116,8 @@ footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
+}
+footer h2 {
+  font-size: 20px;
+  margin-bottom: unset;
 }
