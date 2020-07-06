@@ -8,6 +8,8 @@ body {
   background-color: #d9dcd6;
 }
 
+/*Styling for Header section*/
+
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -21,9 +23,13 @@ h1 {
   font-size: 48px;
 }
 
+/*Created a class for seo only in the word Horiseon*/
+
 .seo {
   color: #d9dcd6;
 }
+
+/*Style for Nav bar*/
 
 nav {
   padding-top: 15px;
@@ -42,6 +48,8 @@ a {
   text-decoration: none;
 }
 
+/*Background image styling only*/
+
 .hero {
   height: 800px;
   width: 100%;
@@ -50,6 +58,8 @@ a {
   background-size: cover;
   background-position: center;
 }
+
+/*Styling for left side panel containing the topics*/
 
 article {
   width: 75%;
@@ -64,6 +74,18 @@ article div {
   background-color: #0072bb;
   color: #ffffff;
 }
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/*Float styling for the images of the topics only*/
+
 .Topic-left {
   float: left;
   max-height: 200px;
@@ -76,14 +98,7 @@ article div {
   margin-left: 25px;
 }
 
-h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-p {
-  font-size: 16px;
-}
+/*Styling for right side panel containing the logos description*/
 
 aside {
   margin-right: 20px;
@@ -96,6 +111,13 @@ aside {
   background-color: #2589bd;
 }
 
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*Styling for the logo images only*/
+
 .benefit {
   margin-bottom: 32px;
   color: #ffffff;
@@ -105,10 +127,8 @@ aside {
   margin: 10px auto;
   max-width: 150px;
 }
-h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
+
+/*Styling for Footer*/
 
 footer {
   padding: 30px;
